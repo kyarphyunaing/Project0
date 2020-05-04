@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!--Setting the viewport to make website look good on all devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Adding necessary links for bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="https:///use.fontawesome.com/releases/v5.0.8/js/all.js">
+	</script>
+	<!-- Linking with css -->
+	<link href="css/style.css" rel="stylesheet">
+	<title>MyProject0</title>
+	<!-- Adding favicon -->
+	<link rel="icon" href="img/mmfavicon.png">
+</head>
+<body>
+ <!--Bootstrap navbar -->
+ <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="index.html">
+        <img id="mmlogo" src="img/mmfavicon.png"> 
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ml-auto">
+            <!-- Website pages -->
+            <li class="nav-item">
+                <a href="places.html" class="nav-link">Places To Visit</a>
+            </li>
+            <li class="nav-item">
+                <a href="food.html" class="nav-link">Food To Taste</a>
+            </li>
+            <li class="nav-item">
+                <a href="contactus.html" class="nav-link">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Image Slider-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="img/bagan.jpg">
+			<div class="carousel-caption">
+				<h1> Welcome to Myanmar</h1>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="img/inle.jpg">
+		</div>
+		<div class="carousel-item">
+			<img src="img/yangon.jpg">
+		</div>
+	</div>
+</div>
+<!-- Footer -->
+<footer>
+    Designed and Implemented by KyarPhyu Naing for CS50W Project 0, May 2020.
+</footer>
+</body>
+</html>
